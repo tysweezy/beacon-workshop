@@ -4,8 +4,9 @@ $(document).ready(function(){
   	slideSpeed: 300,
   	paginationSpeed: 400,
   	items: 1,
-  	rewindNav: false,
-  	stopOnHover: true,
-  	autoPlay: 7000
+  	navRewind: false,
+  	autoplayHoverPause: true,
+  	autoplay: 7000,
+  	navText: ['&#x2190;','&#8594;']
   });
 });

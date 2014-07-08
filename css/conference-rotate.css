@@ -1,5 +1,41 @@
+/*** Variables and mixins ***/
+/* line 11, ../sass/_base.scss */
+html, body {
+  max-height: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/_base.scss */
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 22, ../sass/_base.scss */
+.wrapper {
+  background: #fff3e7;
+  color: #6e6566;
+  height: 100%;
+}
+
+/* line 28, ../sass/_base.scss */
+#conferene-info {
+  width: 45%;
+  height: 300px;
+  padding-top: 10px;
+}
+
+/* line 34, ../sass/_base.scss */
+.page-content {
+  margin: 20px 0;
+  position: relative;
+}
+
 /*** background placeholder for slider ***/
-/* line 2, ../sass/conference-rotate.scss */
+/* line 4, ../sass/conference-rotate.scss */
 #rotating-cities {
   background: #000;
   width: 55%;
@@ -8,8 +44,45 @@
   right: 0;
   top: -20px;
 }
-/* line 10, ../sass/conference-rotate.scss */
+/* line 12, ../sass/conference-rotate.scss */
 #rotating-cities div > img {
   max-width: 100%;
   height: 300px;
+}
+
+/* line 18, ../sass/conference-rotate.scss */
+.owl-nav {
+  position: absolute;
+  top: 45%;
+}
+/* line 22, ../sass/conference-rotate.scss */
+.owl-nav .owl-next {
+  position: absolute;
+  left: 500px;
+}
+
+/* line 27, ../sass/conference-rotate.scss */
+.owl-controls .owl-nav [class*="owl-"] {
+  background: #28bdbc !important;
+}
+/* line 30, ../sass/conference-rotate.scss */
+.owl-controls .owl-nav [class*="owl-"]:hover {
+  background: #cccccc !important;
+}
+
+/* line 37, ../sass/conference-rotate.scss */
+.owl-dots {
+  position: absolute;
+  left: 40%;
+  bottom: 5px;
+}
+
+/* line 43, ../sass/conference-rotate.scss */
+.slide-title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 999;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
 }
