@@ -1,0 +1,12 @@
+/*** header styles ***/
+/* line 4, ../sass/header.scss */
+.container {
+  position: relative;
+}
+
+/* line 6, ../sass/header.scss */
+#header-right {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}

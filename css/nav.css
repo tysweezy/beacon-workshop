@@ -1,0 +1,38 @@
+/*** main navigation styles ***/
+/* line 4, ../sass/nav.scss */
+nav.main-nav {
+  width: 100%;
+  background-color: #28BDBC;
+}
+/* line 8, ../sass/nav.scss */
+nav.main-nav ul li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 15px 37.2px;
+  border-right: 1px solid #fff;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  margin-left: -3px;
+}
+/* line 15, ../sass/nav.scss */
+nav.main-nav ul li:hover {
+  background: #1B7F7F;
+  cursor: pointer;
+}
+/* line 21, ../sass/nav.scss */
+nav.main-nav li:last-child {
+  border-right: none;
+}
+/* line 23, ../sass/nav.scss */
+nav.main-nav a {
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+}
