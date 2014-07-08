@@ -29,9 +29,14 @@ html, body {
 	width: 45%;
 	height: 300px;
 	padding-top: 10px;
+
+	p {
+	  line-height: 1.2em;
+	}
 }
 
 .page-content {
 	margin: 20px 0; 
 	position: relative;
 }
+

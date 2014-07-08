@@ -27,8 +27,12 @@ html, body {
   height: 300px;
   padding-top: 10px;
 }
+/* line 33, ../sass/_base.scss */
+#conferene-info p {
+  line-height: 1.2em;
+}
 
-/* line 34, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 .page-content {
   margin: 20px 0;
   position: relative;
